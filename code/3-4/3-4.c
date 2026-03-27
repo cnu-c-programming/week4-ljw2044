@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 void inc(int* x) {
-    if (x != NULL)
+    if(x == NULL)
         return;
-    *x = *x + 1;        
+    *x = *x + 1;
     printf("%d\n", *x);
 }
 
