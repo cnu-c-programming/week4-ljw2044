@@ -3,17 +3,18 @@
 void my_print(char type, void* x) {
     switch (type) {
         case 'C':
-            printf("Character: %c\n", *(char*)x);
+            printf("%c\n", *(char*)x);
             break;
         case 'D':
-            printf("Integer: %d\n", *(int*)x);
+            printf("%d\n", *(int*)x);
             break;
         case 'S':
-            printf("String: %s\n", (char*)x);
+            printf("%s\n", (char*)x);
             break;
         default:
             printf("Unknown type\n");
     }
+
 }
 
 int main() {
