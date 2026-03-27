@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 static inline void logger_static_inline(char* message) {
